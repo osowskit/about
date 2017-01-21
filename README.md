@@ -1,4 +1,4 @@
-# Start
+# Start :hamburger:
 
 [![Build Status](https://travis-ci.org/atom/about.svg?branch=master)](https://travis-ci.org/atom/about)
 [![Dependency Status](https://david-dm.org/atom/about.svg)](https://david-dm.org/atom/about)
