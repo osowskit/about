@@ -29,6 +29,10 @@
     -webkit-user-drag: none;
   }
 
+  .input-checkbox {
+    margin-top: -.2em;
+  }
+
   // used to group different elements
   .group-start {
     margin-top: 4em;
@@ -101,10 +105,7 @@
 
 .about-updates-item,
 .about-default-update-message .about-updates-label {
-  display: none;
-  &.is-shown {
-    display: block;
-  }
+  display: block;
 }
 
 .about-updates-label {
@@ -130,33 +131,22 @@
 }
 
 
-// Legal --------------------------------
-
-.about-metrics {
-  font-size: .9em;
-  line-height: 1.3;
-  text-align: left;
-  color: @text-color-subtle;
-}
-
-
 // Love --------------------------------
 
 .about-love {
   .icon::before {
     // Make these octicons look good inlined with text
     position: relative;
-    top: 1px;
     width: auto;
+    height: auto;
     margin-right: 0;
     font-size: 1.5em;
+    vertical-align: text-top;
   }
 
   .icon-logo-github::before {
-    // This Octicon has a lot of extra whitespace at the bottom, so it needs
-    // to be moved down more to compensate.
-    // See https://github.com/github/octicons/issues/59
-    top: 3px;
+    font-size: 3.6em;
+    height: .36em;
   }
 }
 
@@ -169,4 +159,7 @@
 
 .about-release-notes {
   color: @background-color-info;
+  &:hover {
+    color: lighten(@background-color-info, 15%);
+  }
 }
