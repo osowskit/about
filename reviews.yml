@@ -1,0 +1,7 @@
+---
+reviews:
+  - name: "API Review Team"
+    files:
+      - api/
+      - docs/api/*.md
+    team: "@org/api-team"
