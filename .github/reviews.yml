@@ -8,5 +8,5 @@ reviews:
   - name: "Bananas Fosters Team"
     files:
       - spec/
-      - *.yml
+      - /*.yml
     team: "@org/banana-team"
