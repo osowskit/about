@@ -5,3 +5,8 @@ reviews:
       - api/
       - docs/api/*.md
     team: "@org/api-team"
+  - name: "Bananas Fosters Team"
+    files:
+      - spec/
+      - *.yml
+    team: "@org/banana-team"
