@@ -6,7 +6,6 @@ jobs:
      steps:
        - checkout
        - run: echo "hello world"
-   notify:
-     webhooks:
-      # A list of hook hashes, containing the URL field
-       - url: https://check-checker.herokuapp.com/payload
+notify:
+   webhooks:
+      - url: https://check-checker.herokuapp.com/payload
