@@ -1,2 +1,6 @@
-FROM ubuntu
-RUN echo 'hello world'
+FROM debian
+RUN apt-get update && apt-get install -y \
+  cvs \
+  git \
+  mercurial \
+  subversion
