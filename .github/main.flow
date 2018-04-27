@@ -1,5 +1,5 @@
 task "ci" {
-  use = "google-container-builder"
+  uses = "google-container-builder"
 
   # Choose a CI provider
 }
