@@ -1,6 +1,6 @@
 # About package
 [![macOS Build Status](https://travis-ci.org/atom/about.svg?branch=master)](https://travis-ci.org/atom/about) [![Windows Build Status](https://ci.appveyor.com/api/projects/status/msprea3vq47l8oce/branch/master?svg=true)](https://ci.appveyor.com/project/atom/about/branch/master) [![Dependency Status](https://david-dm.org/atom/about.svg)](https://david-dm.org/atom/about) 
-
+I'm different.
 View useful information about your Atom installation.
 
 ![About Atom](https://cloud.githubusercontent.com/assets/16760489/19395499/69bbb780-922d-11e6-9779-2b8327027ea5.png)
